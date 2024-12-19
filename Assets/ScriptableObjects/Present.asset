@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93ae44a254c7b54f8a5aec564256dd2, type: 3}
+  m_Name: Present
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1548525826805939132, guid: 673d4dcab67349c4aa8fff8d2d13a55c, type: 3}
+  name: Present
+  deliveryNpc: {fileID: 8211395215933620948, guid: 3d28c9cb3e61d7a418486df59714f304, type: 3}
+  NpcVoiceLines:
+    StartDialogue: {fileID: 8300000, guid: bf5f811d86803224a907612e44bae84e, type: 3}
+    LateDialogue: {fileID: 8300000, guid: 91dede51cfd63d24e94ea88b3ea36e17, type: 3}
+    DoneDialogue: {fileID: 8300000, guid: 0131f6bade08c5745899ef8255f736dc, type: 3}
+    FailedDialogue: {fileID: 8300000, guid: f1be2989dc446cb41b3717a68c77c07a, type: 3}
+  deliveryTime: 100
